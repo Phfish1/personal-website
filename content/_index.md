@@ -52,7 +52,7 @@ sections:
       columns: '1'
   - block: experience
     content:
-      title: Experience
+      title: Arbeidserfaring
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -62,33 +62,33 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+        - title: Young Engineer Lærling
+          company: Telenor
+          company_url: 'https://www.telenor.no/om/jobbitelenor/'
+          company_logo: telenor
+          location: Fornebu
+          date_start: '2024-08-01'
           date_end: ''
           description: |2-
-              Responsibilities include:
+              Arbeid inkluderer:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+              * Oppsett og drift av kundenettverk
+              * Konfigurering og læring av Cisco nettverksenheter og protokoller
+              * Overvåkning og respons av sikkerhetssystemer
+        - title: Butikkselger
+          company: Maxbo
           company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          company_logo: maxbo
+          location: Hvam
+          date_start: '2024-04-01'
+          date_end: '2024-08-01'
+          description: Behandlet og solgte til kunder av Maxbo, Lærte veldig mye om kundeservice.
     design:
       columns: '2'
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
+      title: 'Certs'
       subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -98,32 +98,32 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
+        - certificate_url: https://www.credly.com/badges/60b22cf2-2992-44fc-bf52-57ba543fbe13/public_url
+          date_end: '2026-02-02'
+          date_start: '2023-02-02'
           description: ''
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          icon: cisco-logo
+          organization: Cisco
+          organization_url: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html
+          title: CCNA (Cisco Certified Network Associate)
           url: ''
-        - certificate_url: https://www.edx.org
+        - certificate_url: https://learn.microsoft.com/api/credentials/share/en-us/PhilipSkudvig-0977/6C2D5E4CA6D4623D?sharingId=95EED4250A5F4A52
           date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
+          date_start: '2023-09-25'
           description: ''
-          icon: datacamp
-          organization: DataCamp
+          icon: azure
+          organization: Microsoft
+          organization_url: https://www.edx.org
+          title: Azure fundementals
+          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+        - certificate_url: https://www.credly.com/badges/3720631b-cdca-4c09-82dc-c441f3bd399e/public_url
+          date_end: ''
+          date_start: '2023-11-11'
+          description: ''
+          icon: cisco-logo
+          organization: Cisco
           organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
+          title: 'Introduction to cybersecurity'
           url: ''
     design:
       columns: '2'
